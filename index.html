@@ -12,6 +12,8 @@
 
     <!-- Google Fonts -->
 
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
@@ -30,7 +32,10 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="pic-image-logo mx-5">
+                <img class="navbar-img" style="height: 40px;" src="./images/navbar images/20260705_215149169.png" alt="">
+            </div>
+            <a class="navbar-brand fs-3 mx-5" style="font-family: 'Coromant Garamond'; letter-spacing: 0px;" href="./index.html">BELLE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,21 +43,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
+                        <a class="nav-link active mx-3" aria-current="page" href="./index.html">Homepage</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Products
+                            Pages
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Phone Accesories</a></li>
@@ -63,14 +59,289 @@
                             <li><a class="dropdown-item" href="#">Maintenance and Repairs</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="./details.html">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="./services.html">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="./team.html">Team</a>
+                    </li>   
+                    <a class="btn-design d-flex flex-column justify-content-center align-items-center" style="text-decoration: none;" href="#"><button class="btn rounded-0 px-3 mx-5 btn-style"> <i class="fa-regular fa-calendar-days mx-1"></i> Book Now</button></a>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
             </div>
         </div>
     </nav>
+
+
+    <!-- First Section -->
+
+   <section class="first-section full-vh-section">
+    <img src="./images/Homepage Images/Picsart_26-07-06_03-27-45-074.png" class="flower-top-left" alt="leaf">
+    <img src="./images/Homepage Images/Picsart_26-07-06_03-27-08-596.png" class="flower-bottom-right" alt="flower">
+
+    <div class="row g-0 h-100">
+        <div class="col-lg-6 d-flex align-items-start">
+            <div class="p-5 ms-lg-6 mt-5 text-spacing">
+                <h1 class="display-3 mx-3" style="font-family: 'Cormorant Garamond', serif;">Brighten Your Skin <br> & Make Yourself More Beautiful</h1>
+                <p class="lead my-4 fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eum quo vero, rem optio mollitia accusantium, perferendis fugiat exercitationem aut commodi pariatur. Aliquam, sit ab rem eius fugit obcaecati? Doloribus.</p>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-danger rounded-0 px-4 py-2">Read More</button>
+                    <a href="https://www.youtube.com/watch?v=XOGzCsOtYoM" class="ms-4 text-dark text-decoration-none"><i class="first-fa-style fa-solid fa-play me-2 mx-4"></i>Watch Video</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-6 first-image-col mt-3">
+            <img src="./images/Homepage Images/20260705_222825201.png" alt="Beauty Services">
+        </div>
+    </div>
+</section>
+
+
+<!-- Second Section -->
+
+<section class="second-section">
+    <div class="container text-center">
+        <h2 class="display-5 mt-5 mb-3" style="font-family: 'Cormorant Garamond', serif;">Welcome to Belle Beauty Salon</h2>
+        <p class="lead text-muted mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi pariatur deserunt veniam, nostrum perferendis praesentium ipsum voluptas illo sequi tenetur expedita, dignissimos, eius quis molestias. Quo molestiae laborum tempora assumenda!</p>
+        
+        <div class="row g-4">
+            <!-- Card 1: Our Story -->
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-0 h-100">
+                    <img src="./images/Homepage Images/image1.jpg" class="card-img-top" alt="Our Story">
+                    <!-- Internal card body div -->
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Our Story</h4>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <a href="#" class="btn btn-outline-danger rounded-0 px-4">Discover</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2: Our Service -->
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-0 h-100">
+                    <img src="./images/Homepage Images/image4.jpg" class="card-img-top" alt="Our Service">
+                    <!-- Internal card body div -->
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Our Service</h4>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <a href="#" class="btn btn-outline-danger rounded-0 px-4">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Third Section -->
+
+<section class="third-section mt-5">
+    <img src="./images/Homepage Images/beautiful-rose-studio.png" class="third-section-flower" alt="leaf">
+
+    <div class="row g-0 h-100 align-items-center">
+        <div class="col-lg-6 position-relative">
+            <div class="image-stack ms-5">
+                <img src="./images/Homepage Images/13958.jpg" class="img-behind" alt="Service 1">
+                <img src="./images/Homepage Images/2151916544.jpg" class="img-front" alt="Service 2">
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="p-5">
+                <h2 class="display-4" style="font-family: 'Cormorant Garamond', serif;">Affordable And Reliable, Book Now</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea placeat impedit ratione mollitia commodi molestiae eaque unde dolores iusto nemo. Tempore eius dicta earum perspiciatis obcaecati placeat consectetur fugit assumenda.</p>
+                <div class="d-flex">
+                    <button class="btn btn-danger rounded-0 px-4 py-2 me-3"><i class="fa-regular fa-calendar-days me-2"></i>Book Now</button>
+                    <button class="btn btn-outline-danger rounded-0 px-4 py-2"><i class="fa-solid fa-phone me-2"></i>Phone Call</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Fourth Section -->
+
+<div class="fourth-section-wrapper">
+    <img src="./images/Homepage Images/Picsart_26-07-06_03-27-45-074.png" class="bg-leaf" alt="">
+
+    <section class="fourth-section py-5">
+    <div class="container text-center">
+        <h2 class="display-5 mb-5" style="font-family: 'Cormorant Garamond', serif;">Find The Best Treatment Here</h2>
+        
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <img src="./images/Homepage Images/13951.jpg" class="img-fluid" alt="Eye & Shadow">
+                <div class="mt-3">
+                    <div class="icon-box d-inline-block bg-white p-3">
+                        <i class="fa-solid fa-spa fa-2x" style="color: #d93737;"></i>
+                    </div>
+                    <h5 class="third-write-up style="font-family: 'Cormorant Garamond', serif;">Eye & Shadow</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur...</p>
+                    <button class="btn btn-outline-danger rounded-0">Discover</button>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <img src="./images/Homepage Images/13955.jpg" class="img-fluid" alt="Facial Therapy">
+                <div class="mt-3">
+                    <div class="icon-box d-inline-block bg-white p-3">
+                        <i class="fa-solid fa-hot-tub-person fa-2x" style="color: #d93737;"></i>
+                    </div>
+                    <h5 class="third-write-up" style="font-family: 'Cormorant Garamond', serif;">Facial Therapy</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur...</p>
+                    <button class="btn btn-outline-danger rounded-0">Discover</button>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <img src="./images/Homepage Images/13959.jpg" class="img-fluid" alt="Lifting Facial">
+                <div class="mt-3">
+                    <div class="icon-box d-inline-block bg-white p-3">
+                        <i class="fa-solid fa-bowl-rice fa-2x" style="color: #d93737;"></i>
+                    </div>
+                    <h5 class="third-write-up" style="font-family: 'Cormorant Garamond', serif;">Lifting Facial</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur...</p>
+                    <button class="btn btn-outline-danger rounded-0">Discover</button>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <img src="./images/Homepage Images/13944.jpg" class="img-fluid" alt="Swedish Massage">
+                <div class="mt-3">
+                    <div class="icon-box d-inline-block bg-white p-3">
+                        <i class="fa-solid fa-bottle-droplet fa-2x" style="color: #d93737;"></i>
+                    </div>
+                    <h5 class="third-write-up" style="font-family: 'Cormorant Garamond', serif;">Swedish Massage</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur...</p>
+                    <button class="btn btn-outline-danger rounded-0">Discover</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+
+<!-- Fifth Section -->
+
+<section class="fifth-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="display-5 mb-4" style="font-family: 'Cormorant Garamond', serif;">Many Features and <br> Benefit in Our Beauty SPA</h2>
+                <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                
+                <div class="row text-center">
+                    <div class="col-4">
+                        <h3 class="text-danger">500</h3>
+                        <p>Happy Client</p>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="text-danger">600</h3>
+                        <p>Treatment Complete</p>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="text-danger">20</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="bg-white p-3 shadow-sm me-4">
+                        <i class="fa-solid fa-headset fa-xl" style="color: #d93737;"></i>
+                    </div>
+                    <div>
+                        <h5 style="font-family: 'Cormorant Garamond', serif;">Always Customer support</h5>
+                        <p class="small text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officia voluptatem repudiandae, repellat, quibusdam doloremque quos, tempore inventore perspiciatis alias perferendis sed aperiam dolor excepturi molestiae maxime minima sit. Ipsa.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-4">
+                    <div class="bg-white p-3 shadow-sm me-4">
+                        <i class="fa-solid fa-shirt fa-xl" style="color: #d93737;"></i>
+                    </div>
+                    <div>
+                        <h5 style="font-family: 'Cormorant Garamond', serif;">Clean & Safe Treatment</h5>
+                        <p class="small text-muted mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam qui ad ducimus? Ut doloremque dolores eum officia libero, neque maiores adipisci corporis soluta magni inventore obcaecati rerum ducimus illo ratione.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center mb-4">
+                    <div class="bg-white p-3 shadow-sm me-4">
+                        <i class="fa-solid fa-certificate fa-xl" style="color: #d93737;"></i>
+                    </div>
+                    <div>
+                        <h5 style="font-family: 'Cormorant Garamond', serif;">SPA Quality Guaranteed</h5>
+                        <p class="small text-muted mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus neque animi libero aperiam quo doloribus optio qui? Autem numquam, consequatur pariatur mollitia, consequuntur nulla, atque repellendus at sit natus odit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Sixth Section -->
+
+<section class="price-section py-5 position-relative">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-family: 'Cormorant Garamond', serif;">Our Price List</h2>
+        
+        <div class="row align-items-center">
+            <!-- Left Column: Services -->
+            <div class="col-lg-7">
+                <!-- Service Item Template -->
+                <div class="row align-items-center mb-4">
+                    <div class="col-3"><img src="./images/Homepage Images/2209.jpg" class="img-fluid" alt="Massage"></div>
+                    <div class="col-5">
+                        <h5>Full body massage</h5>
+                        <small class="text-muted">Regular $125 | Extra $215</small>
+                    </div>
+                    <div class="col-4"><button class="btn btn-danger btn-sm">Book Appointment</button></div>
+                </div>
+
+                <div class="row align-items-center mb-4">
+                    <div class="col-3"><img src="./images/Homepage Images/4250.jpg" class="img-fluid" alt="Massage"></div>
+                    <div class="col-5">
+                        <h5>Full body massage</h5>
+                        <small class="text-muted">Regular $125 | Extra $215</small>
+                    </div>
+                    <div class="col-4"><button class="btn btn-danger btn-sm">Book Appointment</button></div>
+                </div>
+
+                <div class="row align-items-center mb-4">
+                    <div class="col-3"><img src="./images/Homepage Images/2149273872.jpg" class="img-fluid" alt="Massage"></div>
+                    <div class="col-5">
+                        <h5>Full body massage</h5>
+                        <small class="text-muted">Regular $125 | Extra $215</small>
+                    </div>
+                    <div class="col-4"><button class="btn btn-danger btn-sm">Book Appointment</button></div>
+                </div>
+            </div>
+
+            <!-- Right Column: Main Image & Flower -->
+            <div class="col-lg-5 position-relative bb-img">
+                <img src="./images/Homepage Images/13958.jpg" class="big-img" alt="Spa Treatment">
+                <!-- Absolute positioned flower -->
+                <img src="./images/Homepage Images/preview.png" class="flower-decoration" alt="flower">
+            </div>
+        </div>
+    </div>
+</section>
     
 </body>
 </html>

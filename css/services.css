@@ -6,8 +6,36 @@
 img{
     width: 100%;
 }
+
+/* navbar styling */
+
+.nav-link {
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(236, 80, 106);
+    background-color: whitesmoke;
+    transform: translateY(-5px);
+}
+
+.btn-style {
+    color: white; 
+    background-color: rgb(236, 80, 106); 
+    font-weight: 600;
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn-design:hover .btn-style {
+    color: white;
+    background-color: #d93737;
+    transform: scale(1.05);
+}
+
+
+
 #first{
-    background-color: beige;
+    background-color: #efdfd8;
     height: 300px;
 }
 .tips img{
