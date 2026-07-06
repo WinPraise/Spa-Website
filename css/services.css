@@ -28,9 +28,34 @@ span{
      
 
 }
+.bok {
+    top: 180px;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    color: rgb(247, 25, 16);
+    padding: 10px 15px;
+    left: 40%;
+    
+
+}
+
+    
+
+
+.tips{
+    position: relative;
+
+}
+
+
 .tips img{
     height: 200px;
     object-fit: cover;
+    
+    
+    
+   
     
 }
 .tips p{
@@ -115,10 +140,7 @@ ul{
    
    
 }
-.hat img{
-  
-    
-}
+
 
 
 .bot{
