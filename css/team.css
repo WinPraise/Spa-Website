@@ -1,3 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* navbar styling */
+
+.navbar {
+    background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-link {
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(236, 80, 106);
+    background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
+    transform: translateY(-5px);
+}
+
+.btn-style {
+    color: white; 
+    background-color: rgb(236, 80, 106); 
+    font-weight: 600;
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn-design:hover .btn-style {
+    color: white;
+    background-color: #d93737;
+    transform: scale(1.05);
+}
+
 .first-row{
 /* border: 1px solid black; */
 }
