@@ -7,6 +7,7 @@ img{
     width: 100%;
 }
 
+<<<<<<< HEAD
 /* navbar styling */
 
 .nav-link {
@@ -37,6 +38,28 @@ img{
 #first{
     background-color: #efdfd8;
     height: 300px;
+=======
+#first{
+    background-color: blanchedalmond;
+    height: 250px;
+}
+.jot {
+     text-align: center;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 70px;
+}
+.say {
+    text-align: center;
+    font-size: 15px !important;
+
+}
+span{
+     color: rgb(255, 136, 0);
+     padding: 15px;
+     
+
+>>>>>>> 81b1c2bba681e855870cfe848e31caa87cdeaa99
 }
 .tips img{
     height: 200px;
@@ -63,3 +86,93 @@ img{
 .anchor {
     text-align: center;
 }
+.top{
+    text-align: center;
+    padding-top: 80px;
+}
+#second{
+    background-color: blanchedalmond;
+    height: 150px;
+}
+
+
+.dot p{
+    padding-top: 50px;
+}
+
+.extra{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 50px;
+    color:  rgb(255, 136, 0);
+}
+
+
+.hit:hover{
+    background-color:blanchedalmond ;
+    border-radius: 10px;
+}
+.zer{
+    padding: 50px;
+  
+}
+.was a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color:  rgb(240, 14, 6);
+   
+
+}
+.was{
+    
+    text-align: center;
+    
+
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+.spa{
+    text-align: center;
+}
+.pol{
+    text-align: center;
+}
+.set{
+    background-color: rgb(252, 250, 247);
+   
+   
+   
+}
+.hat img{
+  
+    
+}
+
+
+.bot{
+    text-decoration: none;
+    color: rgb(240, 14, 6);
+    padding: 5px 10px;
+    border: 1px solid rgb(240, 14, 6);
+
+}
+.not{
+     text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color:  rgb(240, 14, 6);
+}
+
+@media screen and (max-width:756px) {
+    #ret{
+        width: auto;
+    }
+    
+}
+
+    
