@@ -8,7 +8,19 @@ img {
     width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* navbar styling */
+
+.navbar {
+    background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 
 .nav-link {
     transition: transform 0.5s ease-in-out;
@@ -16,7 +28,7 @@ img {
 
 .nav-link:hover {
     color: rgb(236, 80, 106);
-    background-color: whitesmoke;
+    background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
     transform: translateY(-5px);
 }
 

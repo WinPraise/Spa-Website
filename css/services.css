@@ -7,8 +7,15 @@ img{
     width: 100%;
 }
 
-<<<<<<< HEAD
 /* navbar styling */
+
+.navbar {
+    background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 
 .nav-link {
     transition: transform 0.5s ease-in-out;
@@ -16,7 +23,7 @@ img{
 
 .nav-link:hover {
     color: rgb(236, 80, 106);
-    background-color: whitesmoke;
+    background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
     transform: translateY(-5px);
 }
 
@@ -33,20 +40,14 @@ img{
     transform: scale(1.05);
 }
 
-
-
 #first{
     background-color: #efdfd8;
-    height: 300px;
-=======
-#first{
-    background-color: blanchedalmond;
     height: 250px;
 }
 .jot {
-     text-align: center;
+    text-align: center;
     font-size: 70px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Coromant Garamond';
     padding-top: 70px;
 }
 .say {
@@ -56,10 +57,8 @@ img{
 }
 span{
      color: rgb(255, 136, 0);
-     padding: 15px;
-     
+     padding: 15px;   
 
->>>>>>> 81b1c2bba681e855870cfe848e31caa87cdeaa99
 }
 .tips img{
     height: 200px;
@@ -77,8 +76,7 @@ span{
     color: rgb(255, 136, 0);
     border:1px solid   rgb(255, 136, 0);
     padding: 5px 10px;
-    
-    
+      
 }
 #first p{
     font-size: 10px;
