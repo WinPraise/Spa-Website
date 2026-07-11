@@ -6,6 +6,11 @@
 img{
     width: 100%;
 }
+.row {
+      margin: 0 !important;
+      padding: 0 !important;
+      
+    }
 
 /* navbar styling */
 
@@ -40,6 +45,10 @@ img{
     transform: scale(1.05);
 }
 
+
+
+
+      /* section 1 */
 #first{
     background-color: #efdfd8;
     height: 250px;
@@ -60,67 +69,105 @@ span{
      padding: 15px;   
 
 }
-.bok {
-    top: 180px;
-    font-size: 20px;
-    background-color: white;
-    position: absolute;
-    color: rgb(247, 25, 16);
-    padding: 10px 15px;
-    left: 40%;
-    
-
-}
-
-    
-
-
-.tips{
-    position: relative;
-
+#first p{
+    font-size: 10px;
 }
 
 
+
+            /* section 2 */
+ #qwe{
+    margin-top: 50px !important;
+}
+.wrapper{
+     margin-top: 20px !important;
+}
 .tips img{
-    height: 200px;
-    object-fit: cover;
-    
-    
-    
-   
-    
+    height: 300px;
+    object-fit: cover;      
 }
+
 .tips p{
     text-align: center;
 }
-.tips h1{
+.tips h3{
     text-align: center;
+     margin-top: 40px !important; 
+     font-family: 'Coromant Garamond'; 
 }
 .anchor a{
     text-decoration: none;
     color: rgb(255, 136, 0);
     border:1px solid   rgb(255, 136, 0);
-    padding: 5px 10px;
-      
-}
-#first p{
-    font-size: 10px;
+    padding: 5px ;     
 }
 .anchor {
     text-align: center;
 }
+.tips{
+    position: relative;
+}
+.bok{
+    position: absolute;
+    top: 270px;
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+    left: 40%;
+ 
+}
+
+
+
+
+
+
+
 .top{
     text-align: center;
     padding-top: 80px;
 }
+
+
+
+
+
+
+
+
+            /* section 3 */
 #second{
     background-color: blanchedalmond;
     height: 150px;
 }
+.dot {
+    padding: 50px;
+}
 
 
-.dot p{
-    padding-top: 50px;
+
+
+
+
+
+.spa{
+    text-align: center;
+}
+.pol{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+     /* section 4 */
+
+#ret{
+     margin-top: 50px !important;
 }
 
 .extra{
@@ -131,55 +178,78 @@ span{
     font-size: 50px;
     color:  rgb(255, 136, 0);
 }
-
-
+.zer{
+    padding: 50px;
+}
 .hit:hover{
     background-color:blanchedalmond ;
     border-radius: 10px;
 }
-.zer{
-    padding: 50px;
-  
-}
 .was a{
     text-decoration: none;
     color: white;
-    padding: 5px 10px;
+    padding: 10px;
     background-color:  rgb(240, 14, 6);
-   
-
 }
-.was{
-    
-    text-align: center;
-    
-
-}
-ul{
+.zer ul{
     text-align: center;
     list-style: none;
 }
-.spa{
-    text-align: center;
+.center{
+   text-align: center;
 }
-.pol{
-    text-align: center;
+
+
+
+
+
+
+        /* section 5 */
+
+#buy{
+    margin-top: 50px !important;
+    
 }
+
 .set{
-    background-color: rgb(252, 250, 247);
-   
-   
-   
+    background-color: rgb(241, 236, 228);
+}
+.client img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+.client{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+.client h4{
+    color: #f28ca6;
+}
+.zaz{
+    font-family: 'Coromant Garamond';
 }
 
 
 
-.bot{
+
+
+
+
+
+         /* section 6 */
+#sell{
+     margin-top: 50px !important;
+    }
+    .bot{
     text-decoration: none;
     color: rgb(240, 14, 6);
     padding: 5px 10px;
     border: 1px solid rgb(240, 14, 6);
-
+   
 }
 .not{
      text-decoration: none;
@@ -187,12 +257,40 @@ ul{
     padding: 5px 10px;
     background-color:  rgb(240, 14, 6);
 }
+.ghj{
+    margin-top: 20px !important;
+
+}
+.xas{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.gog{ 
+     font-family: 'Coromant Garamond';   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:756px) {
-    #ret{
-        width: auto;
+
+    .jot{
+        font-size: 50px;
     }
-    
+  
 }
 
     
