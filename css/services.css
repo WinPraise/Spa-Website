@@ -273,7 +273,7 @@ span{
     padding: 10px;
     background-color:  rgb(240, 14, 6);
     margin-left: 45px;
-    margin-top: 80px;
+    margin-top: 80px !important;
 }
 .zer ul{
     text-align: center;
@@ -292,17 +292,34 @@ span{
 
 #buy{
     margin-top: 50px !important;
-    
+    background-color: rgb(241, 236, 228);
+    width: 60%;  
+    padding: 80px;
+    margin-left: 500px;   
 }
 
+
 .set{
-    background-color: rgb(241, 236, 228);
+    
+    position: relative;
+  
 }
 .client img{
     height: 60px;
     width: 60px;
     border-radius: 50% ;
     object-fit: cover;
+   
+}
+
+
+.koo img{
+    position: absolute;
+    width: 500px;
+    left: 0;
+    margin-left: 100px;
+    margin-bottom: 60px !important;  
+  
 }
 .client{
     display: flex;
@@ -361,6 +378,42 @@ span{
 
 
 
+#end{
+    margin-top: 50px !important;
+    padding: 50px;
+    background-color: rgb(241, 236, 228);
+
+}
+.fofl img{
+    width: 50px;
+}
+.ender{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.ender img{
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+.saq a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.tou a{
+    color: white;
+    background-color: rgb(240, 14, 6);
+    font-size: 15px;
+     padding: 5px 10px;
+}
+.tou{
+    margin-top: 30px;
+}
 
 
 
@@ -371,10 +424,9 @@ span{
 
 @media screen and (max-width:756px) {
 
-    .jot{
-        font-size: 50px;
+    #second{
+        height: auto;
     }
-  
 }
 
     
