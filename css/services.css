@@ -212,13 +212,10 @@ span{
     margin-top: 50px !important;
     background-color: rgb(241, 236, 228);
     width: 60%;  
-    padding: 50px;
-    margin-left: 500px;
-    
-
-                                                                                     ;
-    
+    padding: 80px;
+    margin-left: 500px;   
 }
+
 
 .set{
     
@@ -232,13 +229,14 @@ span{
     object-fit: cover;
    
 }
+
+
 .koo img{
     position: absolute;
     width: 500px;
     left: 0;
     margin-left: 100px;
-
-  
+    margin-bottom: 60px !important;  
   
 }
 .client{
@@ -298,6 +296,42 @@ span{
 
 
 
+#end{
+    margin-top: 50px !important;
+    padding: 50px;
+    background-color: rgb(241, 236, 228);
+
+}
+.fofl img{
+    width: 50px;
+}
+.ender{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.ender img{
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+.saq a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.tou a{
+    color: white;
+    background-color: rgb(240, 14, 6);
+    font-size: 15px;
+     padding: 5px 10px;
+}
+.tou{
+    margin-top: 30px;
+}
 
 
 
