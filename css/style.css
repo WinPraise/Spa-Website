@@ -20,7 +20,6 @@ html {
     width: 100%;
     z-index: 100;
     background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
-    position: relative;
     overflow: hidden;
 }
 
@@ -31,7 +30,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(239, 166, 161, 0.445), rgba(195, 173, 173, 0.76));
+    background: linear-gradient(90deg, rgba(239, 166, 161, 0.445), rgba(232, 226, 226, 0.76));
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     z-index: -1; 
@@ -132,20 +131,68 @@ html {
 
 /* First Section Styling */
 
+
+.first-section-wrapper {
+    position: relative;
+}
+
+/* 1. Base Section - Keep your original base color */
 .first-section {
     height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #efdfd8;
-    /* position: relative; */
-    overflow: hidden;
+    background-color: #efdfd8; /* Your current base color */
+    position: relative;
+    overflow: visible; /* You already fixed this for the flower! */
     font-family: 'Cormorant Garamond', serif;
+    transition: background-color 0.5s ease; /* Smooth transition */
 }
 
-.first-section-wrapper {
-    position: relative;
+/* 2. The Hover Overlay */
+.first-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Define your "hover" gradient here */
+    background: linear-gradient(135deg, #efdfd8, #ecc4b7, #45281f); 
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.6s ease-in-out; /* The secret to the smooth fade */
+    z-index: 0; /* Keeps it behind your text and images */
+    pointer-events: none; /* Allows mouse to click buttons through it */
+}
+
+/* 3. The Hover Trigger */
+.first-section:hover::after {
+    opacity: 1; /* Fades the gradient in when you move the mouse over the section */
+}
+
+.flower-top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    z-index: 2;
+    animation: float 4s ease-in-out infinite;
+}
+
+.flower-bottom-right {
+    position: absolute;
+    bottom: -80px; 
+    right: 20px;
+    width: 120px;
+    z-index: 100;
+    pointer-events: none;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
 }
 
 .first-image-col {
@@ -153,6 +200,7 @@ html {
     padding-right: 50px; 
     display: flex;
     align-items: center; 
+    perspective: 1000px;
 }
 
 .first-image-col img {
@@ -160,31 +208,43 @@ html {
     width: 100%;
     object-fit: contain;
     border-radius: 20px;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.first-image-col img:hover {
+    transform: scale(1.02) rotateY(-5deg);
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.1);
+}
+
+.btn-danger {
+    transition: all 0.4s ease;
+}
+
+.btn-danger:hover {
+    transform: translateY(-5px);
+    background-color: #b02a2a;
+    box-shadow: 0 10px 20px rgba(217, 55, 55, 0.3);
+}
+
+.first-fa-style {
+    color: #d93737;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.first-fa-style:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }
 
 .first-section .row {
     position: relative;
     z-index: 1;
-}
-
-.flower-top-left {
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    width: 60px;
-    z-index: 0;
-}
-
-.flower-bottom-right {
-    position: absolute;
-    bottom: -80px;
-    right: 20px;
-    width: 120px;
-    z-index: 3;
-}
-
-.first-fa-style {
-    color: #d93737;
 }
 
 
