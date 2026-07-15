@@ -386,6 +386,7 @@ span{
 }
 .fofl img{
     width: 50px;
+    gap: 10px;
 }
 .ender{
     display: flex;
@@ -404,6 +405,7 @@ span{
     text-decoration: none;
     color: black;
     font-size: 30px;
+    
 }
 .tou a{
     color: white;
