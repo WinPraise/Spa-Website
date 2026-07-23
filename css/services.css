@@ -91,11 +91,6 @@ img{
     color: rgb(236, 80, 106) !important;
     transform: translateY(-2px);
 }
-
-.btn-style {
-    
-}
-
 .btn-style:hover {
     background-color: transparent !important;
     color: rgb(236, 80, 106) !important;
@@ -237,6 +232,7 @@ span{
 }
 .pol{
     text-align: center;
+    
 }
 
 
@@ -291,18 +287,65 @@ span{
         /* section 5 */
 
 #buy{
-    margin-top: 50px !important;
-    background-color: rgb(241, 236, 228);
-    width: 60%;  
-    padding: 80px;
-    margin-left: 500px;   
+    margin-top: 50px !important; 
+    position: relative; 
+     
 }
-
-
 .set{
-    
+    padding-left: 150px;
+
+}
+.vaw{
+    padding-top: 30px;
+   
+}
+.top-left{
+position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    height: 210px;
+    object-fit: cover;
+}
+.top-right{
+      position: absolute;
+    top: 20px;
+    left: 220px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.bottom-left{
+     position: absolute;
+    top: 285px;
+    left: 50px;
+    width: 200px;
+    height: 190px;
+    object-fit: cover;
+}
+.bottom-right{
+     position: absolute;
+    top: 285px;
+    left: 270px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.container{
     position: relative;
-  
+}
+.cxz{ 
+    height: 600px;
+    background-color: #fcf5f3; 
+    margin-left: 400px;
+    
+}
+.client{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+    padding-top: 50px;
 }
 .client img{
     height: 60px;
@@ -311,29 +354,14 @@ span{
     object-fit: cover;
    
 }
-
-
-.koo img{
-    position: absolute;
-    width: 500px;
-    left: 0;
-    margin-left: 100px;
-    margin-bottom: 60px !important;  
-  
-}
-.client{
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    gap: 15px;
-}
 .client h4{
     color: #f28ca6;
 }
-.zaz{
-    font-family: 'Coromant Garamond';
-}
 
+.zaz{
+    font-family: 'Coromant Garamond', serif;
+   
+}
 
 
 
@@ -371,6 +399,25 @@ span{
      font-family: 'Coromant Garamond';   
   
 }
+.one img{
+    height: 400px;
+    position: relative;
+    object-fit: cover;
+    width: 300px;
+    right: 50px;
+}
+.two img{
+    height: 400px;
+    position: absolute;
+    margin-top: 50px;
+    width: 300px;
+   right: 80px;
+   object-fit: cover;
+
+}
+.rit{
+    margin: 50px;
+}
 
 
 
@@ -379,19 +426,22 @@ span{
 
 
 #end{
-    margin-top: 50px !important;
+    margin-top: 100px !important;
     padding: 50px;
     background-color: #f7f2ef;
+   
 
 }
 .fofl img{
     width: 50px;
-    gap: 10px;
+    gap: 50px;
+    display: flex;
 }
 .ender{
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-bottom: 20px;
     
 }
 .ender img{
@@ -412,9 +462,21 @@ span{
     background-color: rgb(240, 14, 6);
     font-size: 15px;
      padding: 5px 10px;
+     text-decoration: none;
 }
 .tou{
     margin-top: 30px;
+}
+.zse{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+.zxc i{
+    display: flex;
+   
+    
+
 }
 
 
@@ -429,6 +491,83 @@ span{
     #second{
         height: auto;
     }
-}
+    .jot{
+        font-size: 40px;
+    }
+    #end{
+        text-align: center;
+    }
+     .rit{
+        margin: 0; 
+    }
+
 
     
+     .cxz {
+        margin-left: 0;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .set {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .vaw {
+        padding-top: 15px;
+    }
+
+    /* Make image layout responsive */
+    .koo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .top-left,
+    .top-right,
+    .bottom-left,
+    .bottom-right {
+        position: static;
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .client {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .client img {
+        width: 50px;
+        height: 50px;
+    }
+
+   
+   
+    .koo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.koo img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+    .koo{
+        grid-template-columns: 1fr;
+    }
+
+    .koo img{
+        height: 200px;
+    }
+}
