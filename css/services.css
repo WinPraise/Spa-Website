@@ -132,7 +132,6 @@ img{
 }
 .jot {
     text-align: center;
-    font-size: 70px;
     font-family: 'Coromant Garamond';
     padding-top: 70px;
 }
@@ -491,9 +490,7 @@ position: absolute;
     #second{
         height: auto;
     }
-    .jot{
-        font-size: 40px;
-    }
+   
     #end{
         text-align: center;
     }
