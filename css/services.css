@@ -229,7 +229,27 @@ span{
 .spa{
     text-align: center;
 }
+.jot h1{
 
+overflow:hidden;
+
+white-space:nowrap;
+
+animation:typing 4s steps(20);
+
+}
+
+@keyframes typing{
+
+from{
+width:0;
+}
+
+to{
+width:100%;
+}
+
+}
 
 
 
@@ -240,6 +260,7 @@ span{
 
 #ret{
      margin-top: 50px !important;
+     padding: 50px;
 }
 
 .extra{
@@ -271,6 +292,76 @@ span{
 }
 .center{
    text-align: center;
+}
+#ret{
+  background: linear-gradient(  45deg, #ff0080, #7928ca, #2af598);
+  background-size: 300% 300%;
+  animation: gradient 6s infinite;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
+
+
+
+
+
+
+
+.team{
+    margin-top: 50px !important;
+   padding: 50px;
+    transition: .4s;
+}
+.team:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+     background:#f9ece8;
+    
+}
+.team img{
+    transition: .4s;
+
+}
+.team img:hover{
+     filter: saturate(150%);
+
+}
+.team-member{
+     background:#fff;
+}
+.mem{
+    padding: 20px;
+   
+
+}
+.team-member:hover{
+    animation:pulse .7s infinite;
+}
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.08);
+}
+
+100%{
+transform:scale(1);
+}
+
 }
 
 
@@ -328,12 +419,15 @@ position: absolute;
 .container{
     position: relative;
 }
+
+
 .cxz{ 
     height: 600px;
     background-color: #fcf5f3; 
     margin-left: 400px;
     
 }
+
 .client{
     display: flex;
     align-items: center;
@@ -366,6 +460,9 @@ position: absolute;
          /* section 6 */
 #sell{
      margin-top: 50px !important;
+     position: relative;
+     overflow: hidden;
+     padding: 50px;
     }
     .bot{
     text-decoration: none;
@@ -393,24 +490,21 @@ position: absolute;
      font-family: 'Coromant Garamond';   
   
 }
-.one img{
-    height: 400px;
-    position: relative;
-    object-fit: cover;
-    width: 300px;
-    right: 50px;
-}
-.two img{
-    height: 400px;
-    position: absolute;
-    margin-top: 50px;
-    width: 300px;
-   right: 80px;
-   object-fit: cover;
 
-}
 .rit{
     margin: 50px;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition:.4s ;
+    background: rgba(0, 0, 0, 0.5); 
+    
+}
+.overlay:hover{
+    opacity: 1;
 }
 
 
@@ -480,6 +574,7 @@ position: absolute;
 
 
 
+
 @media screen and (max-width:756px) {
 
     #second{
@@ -492,6 +587,13 @@ position: absolute;
      .rit{
         margin: 0; 
     }
+    .was a{
+        margin-left: 0;
+        margin-top: 20px !important;
+    }
+   #ret{
+    padding:0px;
+   }
 
 
     
