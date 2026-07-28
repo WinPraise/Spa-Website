@@ -55,7 +55,7 @@ html {
     font-weight: 600;
     transition: transform 0.5s ease-in-out;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 2px solid rgb(236, 80, 106);
 }
@@ -190,10 +190,19 @@ html {
     font-size: 48px;
     color: black;
     transition: color 0.3s ease;
+    animation: typing 4s steps(40) infinite;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .first-section:hover h1 {
     color: rgb(236, 80, 106);
+}
+
+@keyframes typing {
+    from{ width: 0; }
+
+    to{ width: 100%; }
 }
 
 .first-image-col {
