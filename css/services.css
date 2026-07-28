@@ -135,7 +135,7 @@ img {
 /* section 1 */
 #first {
     background-color: #efdfd8;
-    height: 400px;
+   min-height: 400px;
     width: 100%;
     position: relative;
 }
@@ -316,7 +316,7 @@ h1 {
     }
 
     to {
-        width: 100%;
+       width: 100%;
     }
 }
 
@@ -391,8 +391,6 @@ h1 {
 }
 
 .team:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     background-color: #efdfd8;
 }
 
@@ -435,6 +433,7 @@ h1 {
 #buy {
     margin-top: 50px !important;
     position: relative;
+    padding: 50px;
 }
 
 #buy:hover {
@@ -447,9 +446,7 @@ h1 {
     text-align: justify;
 }
 
-.vaw {
-    /* padding-top: 30px; */
-}
+
 
 .top-left {
     position: absolute;
@@ -493,7 +490,8 @@ h1 {
 
 .cxz {
     height: 600px;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     background-color: #fcf5f3;
     margin-left: 400px;
 }
@@ -501,7 +499,6 @@ h1 {
 .client {
     display: flex;
     align-items: center;
-    /* margin-top: 40px; */
     gap: 15px;
     padding-top: 10px;
 }
@@ -601,7 +598,20 @@ h1 {
     margin-left: 88%;
     top: 0;
     bottom: 100px !important;
+    animation: float 6s ease-in-out infinite;
 }
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+     50%{
+        transform: translateY(-12px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 
 .fofl img {
     width: 50px;
@@ -655,11 +665,17 @@ h1 {
     #second {
         height: auto;
     }
+    #qwe{
+        padding: 0;
+    }
 
     #end {
         text-align: center;
     }
-
+    #buy{
+        padding: 0;
+    }
+   
     .rit {
         margin: 0;
     }
@@ -672,22 +688,19 @@ h1 {
     #ret {
         padding: 0px;
     }
-   .team{
-   height: auto;
-   }
-   .container{
-   height: auto;
-   }
-   .team-member{
-    height: auto;
-   }
+    .team{
+        padding: 0;
+    }
+   
+ 
 
     .cxz {
         margin-left: 0;
         height: auto;
-        width: auto;
+       
         padding: 30px 20px;
     }
+
 
     .set {
         padding-left: 0;
@@ -704,7 +717,7 @@ h1 {
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
-        margin-bottom: 20px;
+       
     }
 
     .top-left,
@@ -722,17 +735,8 @@ h1 {
         text-align: center;
         gap: 10px;
     }
-
-    .client img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .koo {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-    }
+  
+  
 
     .koo img {
         width: 100%;
@@ -742,13 +746,16 @@ h1 {
 
     .koo {
         grid-template-columns: 1fr;
+        width: 100%;
+       
     }
+   
 
-    .koo img {
-        height: 200px;
-    }
+    
    #second .img-left2{
         margin-left: 0;
+        margin-top: 440px;
+        height: 100px;
 
     }
    #first .img-right1{
