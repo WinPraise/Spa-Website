@@ -191,14 +191,6 @@ html {
     font-size: 48px;
     color: black;
     transition: color 0.3s ease;
-    animation: typing 2s steps(100) infinite;
-    text-wrap: nowrap;
-    overflow: hidden;
-}
-
-@keyframes typing {
-    from { width: 0%;}
-    to {width: 100%;}
 }
 
 .first-section:hover h1 {
