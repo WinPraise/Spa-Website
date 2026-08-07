@@ -18,6 +18,7 @@ html {
     position: sticky;
     top: 0;
     width: 100%;
+    height: 100px;
     z-index: 100;
     background: linear-gradient(rgba(239, 166, 161, 0.445), rgba(241, 241, 241, 0.76));
 }
@@ -28,7 +29,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background: linear-gradient(90deg, rgba(239, 166, 161, 0.445), rgba(232, 226, 226, 0.76));
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -55,7 +56,7 @@ html {
     font-weight: 600;
     transition: transform 0.5s ease-in-out;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 2px solid rgb(236, 80, 106);
 }
@@ -68,7 +69,7 @@ html {
 
 .nav-link {
     position: relative;
-    color: #333;
+    color: rgb(165, 51, 51);
     transition: color 0.3s ease;
 }
 
@@ -190,6 +191,14 @@ html {
     font-size: 48px;
     color: black;
     transition: color 0.3s ease;
+    animation: typing 2s steps(100) infinite;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0%;}
+    to {width: 100%;}
 }
 
 .first-section:hover h1 {
@@ -324,6 +333,10 @@ html {
     margin-bottom: 24px;
 }
 
+.second-section:hover .card-title {
+    color: rgb(236, 80, 106);
+}
+
 .second-section .btn-outline-danger {
     border: 1px solid rgb(236, 80, 106);
     color: rgb(236, 80, 106);
@@ -369,7 +382,7 @@ html {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #f5e6e8;
+    background-color: #e0c6ba;
     transition: left 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     z-index: -1;
 }
@@ -966,7 +979,7 @@ html {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #efdfd8;
+    background-color: #e0c6ba;
     transition: left 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     z-index: -1;
 }
@@ -1008,7 +1021,7 @@ html {
 /* --- Eighth Section Styling --- */
 
 .eighth-section {
-    background-color: #ffffff;
+    background-color: white;
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
