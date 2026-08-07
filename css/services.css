@@ -685,7 +685,7 @@ h1:hover {
     }
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 758px) {
     #second {
         height: auto;
     }
