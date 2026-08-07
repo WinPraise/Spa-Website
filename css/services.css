@@ -141,7 +141,8 @@ img {
     position: absolute;
     height: 200px;
     object-fit: cover;
-    width: 300px;
+    width: 200px;
+    top: 50px;
 }
 
 #first .img-right1 {
@@ -167,15 +168,20 @@ img {
 }
 
 .jot {
-    text-align: right;
+    text-align: center;
     font-family: "Coromant Garamond";
     padding-top: 100px;
     width: 100%;
 }
 
-.say {
-    text-align: center;
+.say a{
+  
     font-size: 30px !important;
+    text-decoration: none;
+    color: black;
+}
+#first p{
+    text-align: center;
 }
 
 span {
@@ -192,9 +198,7 @@ span {
     padding: 30px;
     
 }
-/* #qwe:hover{
-     background: linear-gradient(135deg, #efdfd8, #ecc4b7, #45281f);
-} */
+
 
 .wrapper {
     margin-top: 20px !important;
@@ -299,23 +303,7 @@ h1:hover {
     color: rgb(255, 136, 0);
 }
 
-h1 {
-    overflow: hidden;
-    white-space: nowrap;
-    transition: 0.4s;
-    animation: typing 4s steps(60) infinite;
-    letter-spacing: 5px;
-}
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-       width: 100%;
-    }
-}
 
 /* section 4 */
 
@@ -380,6 +368,7 @@ h1 {
         background-position: 0% 50%;
     }
 }
+
 
 .team {
     margin-top: 50px !important;
@@ -582,17 +571,18 @@ h1 {
 
 #end {
     margin-top: 100px !important;
-    padding: 50px;
+   padding-top: 100px;
     background-color: #f7f2ef;
-    height: 90vh;
+
+    
     position: relative;
 }
 
 .img-left4 {
     position: absolute;
-    height: 300px;
+    height: 200px;
     width: 100px;
-    margin-left: 88%;
+    margin-left: 89%;
     top: 0;
     bottom: 100px !important;
     animation: float 6s ease-in-out infinite;
@@ -624,10 +614,11 @@ h1 {
 }
 
 .ender img {
-    height: 100px;
+    height: 200px;
     width: 200px;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 .saq {
@@ -643,6 +634,12 @@ h1 {
     padding: 5px 10px;
     text-decoration: none;
 }
+.sell a{
+    color: black;
+    text-decoration: none;
+
+
+}
 
 .tou {
     margin-top: 30px;
@@ -656,9 +653,39 @@ h1 {
 
 .zxc i {
     display: flex;
+   
+}
+.all{
+    padding: 50px;
+}
+.foot{
+    text-align: right;
+   
+}
+.two iframe {
+    width: 560px;
+    height: 500px;
+    object-fit: cover;
+}
+ .rit  h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 0.4s;
+    animation: typing 4s steps(60) infinite;
+    letter-spacing: 5px;
 }
 
-@media screen and (max-width: 756px) {
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 758px) {
     #second {
         height: auto;
     }
@@ -697,7 +724,13 @@ h1 {
        
         padding: 30px 20px;
     }
-
+    
+    
+.two iframe {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 100px;
+    }
 
     .set {
         padding-left: 0;
@@ -756,12 +789,29 @@ h1 {
 
     }
    #first .img-right1{
-        margin-left: 0;
+        margin-left: 200px;
+        height: 150px;
+        width: 150px;
     }
     .flow .img-right3{
         margin-left: 0;
+        height: 200px;
+        width: 110px;
     }
     #end .img-left4{
-        margin-left: 0;
+        margin-left: 70px;
+        height: 150px;
+        width: 100px;
     }
+    .two{
+        margin-top: 50px;
+    }
+
+    #end {
+        margin-top: 650px !important;
+    }
+    .dot p{
+        padding-left:60px;
+    }
+   
 }
