@@ -411,7 +411,7 @@ nav{
         }
 
         .section6{
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.227), rgba(165, 42, 42, 0.33), rgba(255, 255, 0, 0.275), rgba(255, 0, 0, 0.215), rgba(255, 217, 0, 0.247), rgba(0, 0, 0, 0.226));
+            /* background: linear-gradient(to top, rgba(0, 0, 0, 0.227), rgba(165, 42, 42, 0.33), rgba(255, 255, 0, 0.275), rgba(255, 0, 0, 0.215), rgba(255, 217, 0, 0.247), rgba(0, 0, 0, 0.226)); */
             padding-bottom: 30px;
             margin-top: 50px;
         }
