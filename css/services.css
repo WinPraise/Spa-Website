@@ -614,8 +614,8 @@ h1:hover {
 }
 
 .ender img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 50%;
@@ -693,7 +693,7 @@ h1:hover {
         padding: 0;
     }
     .client img{
-        
+
         height: 100px;
         width: 100px;
         border-radius: 50%;
